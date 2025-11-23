@@ -193,7 +193,8 @@ else:
 
     # LEFT: Media
     with col_media:
-        st.success(f"👨‍✈️ **Captain's Announcement:** Welcome aboard, {st.session_state.passenger_name}. We are currently cruising at {st.session_state.altitude:,} ft.")
+        st.toast(f"👨‍✈️ **Captain's Announcement:** Welcome aboard, {st.session_state.passenger_name}. We are currently cruising at {st.session_state.altitude:,} ft.")
+        st.success("👨‍✈️ **Captain's Announcement:** Ladies and gentlemen, we have a VIP birthday passenger on board. Please prepare for celebration.")
         st.markdown("# Happy Birthday!")
         st.caption("Seat 1A • First Class • VIP Service")
         

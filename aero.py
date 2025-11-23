@@ -256,9 +256,9 @@ else:
                 st.divider()
                 
                 # 2. Add to Queue Logic
-                new_song_name = st.text_input("Request a Song", placeholder="Enter song title...")
-                if st.button("Add to Queue"):
-                    if new_song_name:
+                new_song_name = ""#st.text_input("Request a Song", placeholder="Enter song title...")
+                if False:
+                    if False:
                         # We add a placeholder entry (reuse a URL for demo purposes)
                         new_entry = {
                             "title": new_song_name,

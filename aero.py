@@ -74,7 +74,7 @@ def create_birthday_card(name):
 st.set_page_config(page_title="Birthday Air", page_icon="🎂", layout="wide", initial_sidebar_state="collapsed")
 
 if 'show_card' not in st.session_state: st.session_state.show_card = False
-if 'passenger_name' not in st.session_state: st.session_state.passenger_name = "Alex"
+if 'passenger_name' not in st.session_state: st.session_state.passenger_name = "Keerthi"
 if 'lat' not in st.session_state: st.session_state.lat = 39.0119
 if 'lon' not in st.session_state: st.session_state.lon = -98.4842
 if 'altitude' not in st.session_state: st.session_state.altitude = 36000

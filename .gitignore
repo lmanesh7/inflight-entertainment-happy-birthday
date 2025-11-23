@@ -1,0 +1,42 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+lib/
+lib64/
+include/
+bin/
+share/
+pip-log.txt
+pip-delete-this-log.txt
+.tox/
+.nox/
+Lib/
+# Editors and OS
+.idea/                          # JetBrains IDEs (PyCharm, IntelliJ, etc)
+.vscode/                        # VS Code
+*.swp
+*~
+.DS_Store                       # macOS
+Thumbs.db                       # Windows
+
+# Environment Files
+.env
+.flaskenv
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+
+# Specific Dependencies/Build
+dist/
+build/
+*.egg-info/
+htmlcov/
+
+# Jupyter Notebook specific
+.ipynb_checkpoints

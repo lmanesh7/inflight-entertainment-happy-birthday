@@ -115,7 +115,7 @@ c1, c2, c3, c4 = st.columns([2,1,1,1])
 with c1: st.title("🎉 AIR BIRTHDAY")
 with c2: st.caption("FLIGHT"); st.write("**BDAY-2025**")
 with c3: st.caption("DESTINATION"); st.write("**PARTY**")
-with c4: st.caption("LOCAL TIME"); st.write(datetime.now().strftime("%H:%M"))
+with c4: st.caption("LOCAL TIME"); st.write(datetime.now(tz="us/eastern").strftime("%H:%M"))
 
 st.markdown("---")
 # --- INITIALIZE AUDIO STATE ---

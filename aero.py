@@ -3,6 +3,7 @@ import pandas as pd
 import random
 from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont
+import os
 import io
 
 # --- 1. HELPER FUNCTION: Create Custom Card ---
@@ -367,7 +368,7 @@ else:
     with f2: 
         # WHATSAPP INTEGRATION
         # REPLACE THIS NUMBER with yours
-        phone_number = "15551234567" 
+        phone_number = os.environ['PHONE_NUMBER']
         msg = "Excuse me, I am in Seat 1A and I would like to order the Birthday Cake please! 🎂"
         whatsapp_url = f"https://wa.me/{phone_number}?text={msg.replace(' ', '%20')}"
         
